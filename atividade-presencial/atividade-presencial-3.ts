@@ -1,6 +1,3 @@
-/* DECIDI USAR POO PARA FAZER O EXERCÍCIO POR CONTA
-DE TER COMO INSTANCIAR UM OBJETO, PODENDO CRIAR PILHAS DIFERENTES*/
-
 //Criando a classe
 class Stack{
     // Passando os atributos dessa classe
@@ -24,17 +21,17 @@ class Stack{
             return 0
         }
     }
-    // Metódo para inserir elementos na Pilha
+    // Inserir Elementos na Pilha
     push(num: number): void{
         if(this.isFull() == 1){
-            console.log('Pilha cheia')
+            console.log('Pilha está cheia')
         }else{
             this.topo++
             this.stack[this.topo] = num
             console.log('Elemento '+num+' Adicionado!')
         }
     }
-    // Metódo para remover elementos na Pilha
+    // Remover elementos da Pilha
     pop(): number | void{
         if(this.isEmpty() == 1){
             console.log('Pilha vazia')
