@@ -1,63 +1,47 @@
 # Atividade de Presença 5
 
 ## Domínio de Problema
-    - Loja de Roupas
+    - Biblioteca Pública
 
 ## Entidades
-    - Gerente
-    - Vendedor
-    - Roupa
+    - Doador
+    - Livro
+    - Bibliotecária(o)
     - Cliente
-    - Dono
-    - Caixa
-    - Fornecedor
 
 ## Classes, seus atributos e métodos
 
-### Classe People
+### Classe Livro
+#### Atributos:
+    - Título
+    - Autor
+    - Editora
+    - Número de Identificação
+    - Aluguel
+#### Métodos:
+    - cadastrarTitulo
+    - cadastrarAutor
+    - cadastrarEditora
+    - cadastrarNumIdentif
+    - cadastrarAluguel
+
+---
+
+### Classe Cliente
 #### Atributos:
     - Nome
+    - RG
     - CPF
-    - Email
-    - Número
-    - Posição
 #### Métodos:
     - cadastrarNome
+    - cadastrarRG
     - cadastrarCPF
-    - cadastrarEmail
-    - cadastrarNúmero
-    - estabelecerPosição
 
 ---
 
-### Classe Roupa
+### Classe Doador
 #### Atributos:
-    - Marca
-    - Modelo
-    - Tamanho
-    - Cor
-    - Tecido
-    - Preço
-#### Métodos:
-    - cadastrarMarca
-    - cadastrarModelo
-    - cadastrarTamanho
-    - cadastrarCor
-    - cadastrarTecido
-    - cadastrarPreço
+    - Nome
+    - Identificação
 
----
-
-### Classe Fornecedor
-#### Atributos:
-    - CNPJ
-    - Nome do Fornecedor
-    - Nome do Fabricante
-    - Número da Encomenda
-    - Quantidade Fornecida
 #### Métodos:
-    - cadastrarCNPJ
-    - cadastrarFornecedor
-    - cadastrarFabricante
-    - cadastrarEncomenda
-    - cadastrarQntd
