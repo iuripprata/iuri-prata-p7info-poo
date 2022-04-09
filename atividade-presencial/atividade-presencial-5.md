@@ -43,7 +43,7 @@
 #### Atributos:
     - Nome
     - Identificação
+    - Livro para Doação
 
 #### Métodos:
     - cadastrarDoacao
-    - 
