@@ -1,53 +1,49 @@
 # Atividade de Presença 5
 
 ## Domínio de Problema
-    - ideia a ser utilizada
+    - Biblioteca Pública
 
 ## Entidades
-    - Entidade 1
-    - Entidade 2
-    - Entidade 3
-    - Entidade 4
-    - Entidade 5
+    - Doador
+    - Livro
+    - Bibliotecária(o)
+    - Cliente
 
 ## Classes, seus atributos e métodos
 
-### Classe 1
+### Classe Livro
 #### Atributos:
-    - Atributo
-    - Atributo 2
-    - Atributo 3
-    - Atributo 4
+    - Título
+    - Autor
+    - Editora
+    - Número de Identificação
+    - Aluguel
 #### Métodos:
-    - Método
-    - Método 2
-    - Método 3
-    - Método 4
+    - cadastrarTitulo
+    - cadastrarAutor
+    - cadastrarEditora
+    - cadastrarNumIdentif
+    - cadastrarAluguel
 
 ---
 
-### Classe 2
+### Classe Cliente
 #### Atributos:
-    - Atributo
-    - Atributo 2
-    - Atributo 3
-    - Atributo 4
+    - Nome
+    - RG
+    - CPF
 #### Métodos:
-    - Método
-    - Método 2
-    - Método 3
-    - Método 4
+    - cadastrarNome
+    - cadastrarRG
+    - cadastrarCPF
 
 ---
 
-### Classe 3
+### Classe Doador
 #### Atributos:
-    - Atributo
-    - Atributo 2
-    - Atributo 3
-    - Atributo 4
+    - Nome
+    - Identificação
+
 #### Métodos:
-    - Método
-    - Método 2
-    - Método 3
-    - Método 4
+    - cadastrarDoacao
+    - 
