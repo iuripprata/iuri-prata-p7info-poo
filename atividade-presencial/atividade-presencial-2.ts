@@ -1,5 +1,5 @@
 
-function printDec(valor: number): string{
+function printDec(valor : number): string{
     let dec = (valor).toString(10)
     return dec
 }
