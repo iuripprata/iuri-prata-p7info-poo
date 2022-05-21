@@ -70,6 +70,26 @@ export class NotaFiscal {
     // Imprimir a NotaFiscal conforme o Layout definido
     
     imprimirNotaFiscal(): void {
+        var data = new Date();
+        console.log("--------------------------------------------------------------------------------------------------------------------")
+        console.log("NOTA FISCAL                                                                                                   ", data)
+        console.log("Cliente:",this.cliente.getcodigo(), "      Nome:",this.cliente.getnome() )
+        console.log("CPF:",this.cliente.getcnpjcpf())
+        console.log("--------------------------------------------------------------------------------------------------------------------")
+        console.log("ITENS")
+        console.log("--------------------------------------------------------------------------------------------------------------------")
+        console.log("Seq    Descrição                                                               QTD       Valor Unit         Preço   ")
+        console.log("------------------------------------------------------------------------      -----     -------------     ----------")
+        for(let count = 0; count < this.items.length; count++){
+            let precoTotal =  this.items[count].getquantidade() * this.items[count].produto.getvalorUnitario()
+            this.valorNota += precoTotal
+            console.log("%i       %s                                                       %f            %f              %f  ",
+            this.items[count].getsequencial(), this.items[count].produto.getdescricao(), this.items[count].getquantidade(), this.items[count].produto.getvalorUnitario(), precoTotal)
+        }
+        console.log("")
+    }
+
+    SomaTotal(): void {
         let soma = 0
         for(let count = 0; count < this.items.length; count++){
             let quantia =  this.items[count].getquantidade() * this.items[count].getvalor()

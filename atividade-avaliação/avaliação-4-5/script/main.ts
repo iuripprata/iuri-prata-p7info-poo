@@ -21,10 +21,10 @@ console.log("Codigo=" + cliente.getcodigo());
 console.log("CnpjCpf=" + cliente.getcnpjcpf());
 console.log("TipoCliente=" + cliente.gettipo());
 
-let p1 = new Produto(1, 150, "Arroz Prata", 8.00);
-let p2 = new Produto(2, 200,"Feijão Pau dos Ferros", 7.00);
-let p3 = new Produto(3, 300, "Preconceito com Farinha", 5.50);
-let p4 = new Produto(4, 350, "Mucilon Mágico", 8.50);
+let p1 = new Produto(1, 150, "Arroz    Pratinha", 8.00);
+let p2 = new Produto(2, 200, "Feijão Pau Ferros", 7.00);
+let p3 = new Produto(3, 300, "Farinha do Sertão", 5.50);
+let p4 = new Produto(4, 350, "Mucilon do Mágico", 8.50);
 
 let nf = new NotaFiscal(1, 201, cliente);
 
