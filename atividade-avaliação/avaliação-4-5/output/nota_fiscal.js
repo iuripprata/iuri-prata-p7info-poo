@@ -55,7 +55,8 @@ class NotaFiscal {
             this.valorNota += precoTotal;
             console.log("%i       %s                                                       %f            %f              %f  ", this.items[count].getsequencial(), this.items[count].produto.getdescricao(), this.items[count].getquantidade(), this.items[count].produto.getvalorUnitario(), precoTotal);
         }
-        console.log("");
+        console.log("--------------------------------------------------------------------------------------------------------------------");
+        console.log("Valor Total:", this.valorNota);
     }
     SomaTotal() {
         let soma = 0;
