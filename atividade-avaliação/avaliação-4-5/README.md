@@ -52,6 +52,6 @@ imprimirNotaFiscal(): void {
 }
 ```
 
-O resultado você pode conferir no print a seguir:
+O resultado você pode conferir no print mostrado a seguir:
 
 ![imagem 2](https://github.com/iuripprata/iuri-prata-p7info-poo/blob/main/atividade-avaliação/avaliação-4-5/avaliação-5.PNG)
