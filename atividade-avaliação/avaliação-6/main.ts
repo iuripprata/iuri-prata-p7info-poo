@@ -4,9 +4,9 @@ import { Quadrilatero } from "./quadrilatero"
 let pontoA = new Ponto(0, 8)
 let pontoB = new Ponto(10, 0)
 
-let pontoC = new Ponto(4, 3)
-let pontoD = new Ponto(10, 5)
-let pontoE = new Ponto(11, 6)
+let pontoC = new Ponto(5, 0)
+let pontoD = new Ponto(12, 10)
+let pontoE = new Ponto(10, 6)
 
 let Quad = new Quadrilatero(pontoA,pontoB)
 
